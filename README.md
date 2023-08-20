@@ -20,4 +20,5 @@ Se você não tem a SeleniumLibrary instalada, os testes automatizados de interf
    Digitar comando "robot CadastrosTests.robot"
    # Executar test 
    Digitar comando "robot --include <nome_da_tag> CadastrosTests.robot"
+   
    EX:   robot --include CT01 CadastrosTests.robot
