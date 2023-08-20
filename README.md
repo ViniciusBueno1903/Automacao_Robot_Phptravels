@@ -12,4 +12,12 @@ Antes de executar os testes neste projeto, certifique-se de que você tenha os s
 2. Instale a biblioteca SeleniumLibrary com o seguinte comando:
    pip install robotframework-seleniumlibrary
    
-# Se você não tem a SeleniumLibrary instalada, os testes automatizados de interface web não funcionarão corretamente.
+Se você não tem a SeleniumLibrary instalada, os testes automatizados de interface web não funcionarão corretamente.
+
+#Passo a Passo para executar o teste
+   Certifique de estar na pasta "Tests" para executar a automação
+   # Executar suite
+   Digitar comando "robot CadastrosTests.robot"
+   # Executar test 
+   Digitar comando "robot --include <nome_da_tag> CadastrosTests.robot"
+   EX:   robot --include CT01 CadastrosTests.robot
