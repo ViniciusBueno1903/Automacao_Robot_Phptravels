@@ -14,7 +14,7 @@ Antes de executar os testes neste projeto, certifique-se de que você tenha os s
    
 Se você não tem a SeleniumLibrary instalada, os testes automatizados de interface web não funcionarão corretamente.
 
-#Passo a Passo para executar o teste
+# Passo a Passo para executar o teste
    Certifique de estar na pasta "Tests" para executar a automação
    # Executar suite
    Digitar comando "robot CadastrosTests.robot"
